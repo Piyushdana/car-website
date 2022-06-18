@@ -1,0 +1,142 @@
+.sec-main{
+    height: 40rem;
+    background-color:#0e0e0e;
+    margin: 8rem auto;
+    max-width: 81rem; 
+    min-height:  48rem;
+    margin-top: -8rem;
+     
+
+
+    &-header{
+        display: flex;
+         
+        
+        &-left{
+        margin-top: 9rem;
+        color: white;
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        font-family: sans-serif; 
+        margin-left: 3rem;
+                
+
+        }
+
+        &-right{
+            flex: 1;
+            display: flex;
+             align-items: center;
+             justify-content: space-around;
+             font-family: sans-serif;
+             margin-top: 9rem;
+             transition: all .3s;
+
+             &-suv{
+                display: flex;
+                 
+
+                &-img{
+                    height: 3rem;
+                    &:hover{
+                        transform: translateX(-1rem
+                        );
+                    }
+
+                    &:active{
+                        transform: translateX(1.2rem);
+                    }
+                }
+                &-name{
+                    color: white;
+                    margin-left: 1rem;
+                    margin-top: 0.9rem;
+                    font-size: 1.2rem;
+                    text-decoration: none;
+                }
+             }
+
+            
+        }
+    }
+
+    &-lists{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 6.2rem;
+    }
+    &-lists-1{
+        
+
+        &-img{
+            height: 10rem;
+            width: 20rem;
+
+             
+        }
+        &-text-2{
+            text-align: center;
+            margin-bottom: 0;
+            margin-top: 0.5rem;
+            color: white;
+            font-size: 1.7rem;
+        }
+        &-small{
+            font-size: 1.2rem;
+             margin-left: 8.5rem;
+             color: #36353a;
+        }
+
+        &-rupee{
+            color: #f3a007;
+            margin-left: 1.2rem;
+            margin-top: 1.5rem;
+            margin-top: 2.6rem;
+        }
+        &-perday{
+            text-transform: uppercase;
+            color: #36353a;
+            margin-top: 2.7rem;
+        }
+        &-Drive{
+            margin-top: 1.4rem;
+            font-size: 1.1rem;
+            margin-left: 5rem;
+            color: #f3a007;
+            margin-top: 2.6rem;
+            text-transform: uppercase;
+            font-family: sans-serif;
+            font-weight: 100;
+            text-decoration: none   ;
+
+
+            &:hover{
+              
+                color: white;
+            }
+        }
+
+        &-dash{ 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 3rem;
+
+
+            &-img{
+                
+                height: 2rem;
+                width: 5rem;
+
+                &-1{
+                    fill: white;
+                }
+            }
+            &-text{
+                font-size: 1.2rem;
+                color: white;
+            }
+        }
+    }
+}
+ 

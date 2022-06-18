@@ -1,0 +1,29 @@
+
+$bp-medium:81.25em;  //1300//
+    
+
+
+
+
+
+body{
+    background-color: black;
+    font-size: 2rem;
+    
+    
+    @media only screen and (max-width:$bp-medium){
+        position: absolute;
+
+    }
+     
+ 
+}
+
+@import "sass/header.scss"; 
+@import "sass/sec-main.scss"; 
+@import "sass/grid.scss"; 
+@import "sass/sec-main-2.scss";
+@import "sass/footer.scss"; 
+    
+ 
+    

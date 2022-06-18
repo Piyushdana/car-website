@@ -1,0 +1,128 @@
+.sec-main-2{
+        background-color: #0e0e0e;
+        height: 62rem;
+        width: 81rem;
+        justify-content: center;
+        margin: 8rem auto;
+        margin-top: -8rem;
+ 
+
+        &-first{
+            display: flex;
+            margin-left: 1rem;
+
+
+            &-img{
+                margin-top: 3rem;
+                height: 29rem;
+                width: 44rem;
+            }
+
+            &-box{
+                background-color: #f3a007;
+                height: 15rem;
+                width: 5.5rem;
+                color: green;
+                margin-top: 9rem;
+                margin-left: -3rem;
+
+
+                &-text{
+                    color: white;  
+                    font-size: 2rem;
+                    font-family: sans-serif;
+                    margin-top: 2.7rem;
+                    margin-left: 4.2rem;
+                }   
+
+            }
+
+            &-Drive{
+                margin-left: 10rem;
+                position: absolute;
+                margin-top: 5rem;
+                text-decoration: none;
+                text-transform: uppercase;
+                color: #f3a007;
+
+                &:hover{
+                    color: white;
+                    background-color: #f3a007;
+                
+                }
+            }
+        }
+
+     &-second{
+
+        display: flex;
+        justify-content: space-between;
+
+        &-text{
+
+            &-heading{
+                font-family: sans-serif;
+                color: white;
+                font-size: 2rem;
+                letter-spacing: 1px;
+                margin-left: 5.5rem;
+                margin-top: 7rem;
+            }
+            &-para{
+                    margin-left: 5.5rem;
+                    font-size: 0.9rem;
+                    color: lightgray;
+                    font-family: sans-serif;
+
+                &-que{
+
+                    margin: 0rem;
+                    font-size: 1.2rem;
+                    color: lightgray;
+                    font-size: 0.9rem;
+                    font-family: sans-serif;
+                    
+                }
+
+                &-p{
+                    color: lightgray;
+                    width: 35rem;
+                    margin: 0;
+                    color: white;
+                }
+             }
+
+            &-images{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 33rem;
+                margin-left: 5rem;
+                margin-top: 2rem;
+
+
+                &-img1{
+                    height: 1.5rem;
+                     width: 2rem;
+                    fill: rgba(255, 255, 255, 0.589);
+
+                    &-text{
+                        font-size: 1rem;
+                        color: white;
+                    }
+
+                }
+
+
+            }
+
+
+
+
+        }
+
+        &-img{
+            height: 28rem;
+        }
+     }
+}
